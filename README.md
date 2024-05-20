@@ -1,2 +1,2 @@
 # Visual-Programming
-Solved exercises using C# language.
+Solved Windows Forms App(.NET Framework) exercises in C#.
