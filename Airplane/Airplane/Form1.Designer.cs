@@ -126,10 +126,11 @@
             // tbAverageDestLength
             // 
             this.tbAverageDestLength.Enabled = false;
-            this.tbAverageDestLength.Location = new System.Drawing.Point(10, 88);
+            this.tbAverageDestLength.Location = new System.Drawing.Point(16, 88);
             this.tbAverageDestLength.Name = "tbAverageDestLength";
             this.tbAverageDestLength.Size = new System.Drawing.Size(302, 22);
             this.tbAverageDestLength.TabIndex = 3;
+            this.tbAverageDestLength.TextChanged += new System.EventHandler(this.tbAverageDestLength_TextChanged);
             // 
             // tbMostExpensiveDest
             // 

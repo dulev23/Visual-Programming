@@ -86,5 +86,10 @@ namespace Airplane
             btnAddDestination.Enabled = lbAirports.SelectedIndex != -1;
             loadChanges();
         }
+
+        private void tbAverageDestLength_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
