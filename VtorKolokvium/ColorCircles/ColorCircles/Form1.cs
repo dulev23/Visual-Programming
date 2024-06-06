@@ -127,7 +127,7 @@ namespace ColorCircles
             SaveFileDialog saveFile = new SaveFileDialog();
             if(saveFile.ShowDialog() == DialogResult.OK)
             {
-                String path = saveFile.FileName;
+                string path = saveFile.FileName;
                 serializeScene(path);
             }
         }
